@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_adapter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context="com.example.quagnitia.websevicesdemo.StudentDetailActivity">
+<TextView
+    android:id="@+id/txtid"
+    android:text="ID"
+    android:padding="10dp"
+    android:textSize="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_toRightOf="@+id/txtid"
+        android:text="Name"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtAge"
+        android:layout_toRightOf="@+id/txtName"
+        android:text="Age"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtCity"
+        android:layout_toRightOf="@+id/txtAge"
+        android:text="City"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_toRightOf="@+id/txtCity"
+        android:text="Gender"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtBirthdate"
+        android:layout_toRightOf="@+id/txtGender"
+        android:text="Birthdate"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
